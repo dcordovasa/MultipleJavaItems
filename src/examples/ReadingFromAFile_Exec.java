@@ -6,9 +6,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class ReadingFromAFile {
+public class ReadingFromAFile_Exec {
 	public static void main(String[] args) throws FileNotFoundException {
-		Scanner in = new Scanner(new File("D:\\David\\Devel\\Worspace_Courses\\MultipleJavaItems\\src\\handsOn\\students.txt"));
+		Scanner in = new Scanner(new File("D:\\David\\Devel\\Worspace_Courses\\MultipleJavaItems\\src\\examples\\students.txt"));
 		List<String> students = new ArrayList<String>();
 		while(in.hasNextLine()) {
 			students.add(in.nextLine());

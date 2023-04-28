@@ -1,6 +1,6 @@
 package examples;
 
-public class Multithreading {
+public class Multithreading_Exec {
 
 	public static void main(String[] args) {
 		for(int i=0; i<=3; i++) {

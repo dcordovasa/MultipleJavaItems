@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class IteratorExample {
+public class IteratorExample_Exec {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
